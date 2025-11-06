@@ -1,0 +1,502 @@
+{"timestamp": "2025-11-04T04:15:42.589356Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:15:42.590213Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:15:42.590695Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:15:42.590695Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:15:42.593932Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_111542_13b19e82", "temp_dir": "data\\session_20251104_111542_13b19e82", "faiss_dir": "faiss_index\\session_20251104_111542_13b19e82", "sessionized": true, "timestamp": "2025-11-04T04:15:42.595094Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_111542_13b19e82\\27f12b67.txt", "timestamp": "2025-11-04T04:15:42.597221Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:15:42.605721Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:15:42.611345Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:15:42.612620Z", "level": "info", "event": "Loading embedding model"}
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+{"added": 1, "index": "faiss_index\\session_20251104_111542_13b19e82", "timestamp": "2025-11-04T04:15:44.034806Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:15:44.036262Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:15:44.037273Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:15:44.037273Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:15:44.037273Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:15:44.037273Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:15:44.037273Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:15:44.037273Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_111542_13b19e82", "timestamp": "2025-11-04T04:15:44.045808Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_111542_13b19e82", "timestamp": "2025-11-04T04:15:44.045808Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:15:44.045808Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:15:44.045808Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:15:44.045808Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:15:44.045808Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:15:44.051195Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:15:44.051195Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_111542_13b19e82", "timestamp": "2025-11-04T04:15:44.070097Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_111542_13b19e82", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_111542_13b19e82", "timestamp": "2025-11-04T04:15:44.070097Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details..
+{"session_id": "session_20251104_111542_13b19e82", "user_input": "How Agentic AI is transforming AI engineering practices?", "answer_preview": "Agentic AI is transforming software engineering through systems that can understand requirements, generate code, test implementations, debug errors, a", "timestamp": "2025-11-04T04:15:55.612482Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:15:55.658179Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:15:55.659180Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:15:55.659180Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:15:55.660179Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:15:55.662182Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_111555_5154f86c", "temp_dir": "data\\session_20251104_111555_5154f86c", "faiss_dir": "faiss_index\\session_20251104_111555_5154f86c", "sessionized": true, "timestamp": "2025-11-04T04:15:55.664181Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_111555_5154f86c\\6f037f44.txt", "timestamp": "2025-11-04T04:15:55.664734Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:15:55.675829Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:15:55.677268Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:15:55.677806Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_111555_5154f86c", "timestamp": "2025-11-04T04:15:57.002976Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:15:57.002976Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:15:57.002976Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:15:57.002976Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:15:57.002976Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:15:57.008649Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:15:57.010066Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:15:57.011594Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_111555_5154f86c", "timestamp": "2025-11-04T04:15:57.011594Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_111555_5154f86c", "timestamp": "2025-11-04T04:15:57.011594Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:15:57.015136Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:15:57.015538Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:15:57.015538Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:15:57.015538Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:15:57.018263Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:15:57.018263Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_111555_5154f86c", "timestamp": "2025-11-04T04:15:57.036347Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_111555_5154f86c", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_111555_5154f86c", "timestamp": "2025-11-04T04:15:57.036347Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details..
+{"session_id": "session_20251104_111555_5154f86c", "user_input": "For customer-facing applications, which company's models dominate the top rankings?", "answer_preview": "I'm sorry, but the provided text does not contain information about which company's models dominate the top rankings for customer-facing applications.", "timestamp": "2025-11-04T04:16:14.447146Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:16:14.450349Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:16:14.450349Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:16:14.450349Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:16:14.450349Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:16:14.452328Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_111614_860ca288", "temp_dir": "data\\session_20251104_111614_860ca288", "faiss_dir": "faiss_index\\session_20251104_111614_860ca288", "sessionized": true, "timestamp": "2025-11-04T04:16:14.452328Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_111614_860ca288\\ad54577a.txt", "timestamp": "2025-11-04T04:16:14.452328Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:16:14.467874Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:16:14.468873Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:16:14.469875Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_111614_860ca288", "timestamp": "2025-11-04T04:16:15.514308Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:16:15.514308Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:16:15.514308Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:16:15.514308Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:16:15.514308Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:16:15.517786Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:16:15.517786Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:16:15.517786Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_111614_860ca288", "timestamp": "2025-11-04T04:16:15.521380Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_111614_860ca288", "timestamp": "2025-11-04T04:16:15.521380Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:16:15.521380Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:16:15.521380Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:16:15.521380Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:16:15.521380Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:16:15.528277Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:16:15.529046Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_111614_860ca288", "timestamp": "2025-11-04T04:16:15.551033Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_111614_860ca288", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_111614_860ca288", "timestamp": "2025-11-04T04:16:15.551033Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details..
+{"session_id": "session_20251104_111614_860ca288", "user_input": "What percentage of respondents are using RAG in some form?", "answer_preview": "I'm sorry, but the provided text does not contain the answer to this question.", "timestamp": "2025-11-04T04:16:29.634503Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:16:29.636503Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:16:29.637503Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:16:29.638503Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:16:29.639503Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:16:29.643198Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_111629_bf258dbd", "temp_dir": "data\\session_20251104_111629_bf258dbd", "faiss_dir": "faiss_index\\session_20251104_111629_bf258dbd", "sessionized": true, "timestamp": "2025-11-04T04:16:29.645364Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_111629_bf258dbd\\7c3bc346.txt", "timestamp": "2025-11-04T04:16:29.647884Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:16:29.665985Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:16:29.667983Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:16:29.668985Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_111629_bf258dbd", "timestamp": "2025-11-04T04:16:31.199086Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:16:31.200104Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:16:31.203614Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:16:31.203614Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:16:31.204617Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:16:31.205616Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:16:31.209149Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:16:31.210158Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_111629_bf258dbd", "timestamp": "2025-11-04T04:16:31.213774Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_111629_bf258dbd", "timestamp": "2025-11-04T04:16:31.214771Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:16:31.218288Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:16:31.219316Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:16:31.220319Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:16:31.221497Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:16:31.224837Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:16:31.225837Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_111629_bf258dbd", "timestamp": "2025-11-04T04:16:31.258242Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_111629_bf258dbd", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_111629_bf258dbd", "timestamp": "2025-11-04T04:16:31.259249Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_111629_bf258dbd", "user_input": "How often are most respondents updating their models?", "answer_preview": "I'm sorry, but the provided text does not contain information about how often respondents are updating their models.", "timestamp": "2025-11-04T04:16:34.787635Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:19:57.498622Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:19:57.499615Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:19:57.500613Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:19:57.500613Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:19:57.503614Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_111957_7dad3044", "temp_dir": "data\\session_20251104_111957_7dad3044", "faiss_dir": "faiss_index\\session_20251104_111957_7dad3044", "sessionized": true, "timestamp": "2025-11-04T04:19:57.505150Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_111957_7dad3044\\e79ca7aa.txt", "timestamp": "2025-11-04T04:19:57.506151Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:19:57.519875Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:19:57.519875Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:19:57.521382Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_111957_7dad3044", "timestamp": "2025-11-04T04:19:58.824166Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:19:58.825174Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:19:58.827148Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:19:58.828261Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:19:58.829261Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:19:58.829261Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:19:58.831767Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:19:58.831767Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_111957_7dad3044", "timestamp": "2025-11-04T04:19:58.835167Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_111957_7dad3044", "timestamp": "2025-11-04T04:19:58.835167Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:19:58.835167Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:19:58.837981Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:19:58.837981Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:19:58.837981Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:19:58.840299Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:19:58.842864Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_111957_7dad3044", "timestamp": "2025-11-04T04:19:58.872162Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_111957_7dad3044", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_111957_7dad3044", "timestamp": "2025-11-04T04:19:58.873625Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_111957_7dad3044", "user_input": "How often are most respondents updating their models?", "answer_preview": "I'm sorry, but the provided text does not contain information about how often respondents are updating their models.", "timestamp": "2025-11-04T04:20:01.709889Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:20:01.722554Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:20:01.722554Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:20:01.723691Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:20:01.723691Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:20:01.724691Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112001_7dac0734", "temp_dir": "data\\session_20251104_112001_7dac0734", "faiss_dir": "faiss_index\\session_20251104_112001_7dac0734", "sessionized": true, "timestamp": "2025-11-04T04:20:01.728511Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112001_7dac0734\\31dbb346.txt", "timestamp": "2025-11-04T04:20:01.729606Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:20:01.742512Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:20:01.743726Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:20:01.743726Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112001_7dac0734", "timestamp": "2025-11-04T04:20:03.452562Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:20:03.453260Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:20:03.453928Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:20:03.453928Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:20:03.453928Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:20:03.453928Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:20:03.458499Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:20:03.458499Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112001_7dac0734", "timestamp": "2025-11-04T04:20:03.460661Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112001_7dac0734", "timestamp": "2025-11-04T04:20:03.462907Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:20:03.462907Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:20:03.462907Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:20:03.462907Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:20:03.462907Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:20:03.467418Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:20:03.468486Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112001_7dac0734", "timestamp": "2025-11-04T04:20:03.489161Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112001_7dac0734", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112001_7dac0734", "timestamp": "2025-11-04T04:20:03.489462Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_112001_7dac0734", "user_input": "For customer-facing applications, which company's models dominate the top rankings?", "answer_preview": "I'm sorry, but the answer to your question is not in the context.", "timestamp": "2025-11-04T04:20:07.131052Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:20:07.138165Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:20:07.140672Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:20:07.140672Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:20:07.140672Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:20:07.143977Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112007_be7dc0eb", "temp_dir": "data\\session_20251104_112007_be7dc0eb", "faiss_dir": "faiss_index\\session_20251104_112007_be7dc0eb", "sessionized": true, "timestamp": "2025-11-04T04:20:07.145042Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112007_be7dc0eb\\e427b90b.txt", "timestamp": "2025-11-04T04:20:07.146004Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:20:07.157913Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:20:07.158930Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:20:07.160065Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112007_be7dc0eb", "timestamp": "2025-11-04T04:20:08.636748Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:20:08.637756Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:20:08.639002Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:20:08.639002Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:20:08.639002Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:20:08.639002Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:20:08.644765Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:20:08.644765Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112007_be7dc0eb", "timestamp": "2025-11-04T04:20:08.646677Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112007_be7dc0eb", "timestamp": "2025-11-04T04:20:08.648694Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:20:08.649639Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:20:08.651064Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:20:08.651064Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:20:08.652341Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:20:08.653340Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:20:08.655306Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112007_be7dc0eb", "timestamp": "2025-11-04T04:20:08.679086Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112007_be7dc0eb", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112007_be7dc0eb", "timestamp": "2025-11-04T04:20:08.680290Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_112007_be7dc0eb", "user_input": "What percentage of respondents are using RAG in some form?", "answer_preview": "I'm sorry, but I cannot answer that question with the context provided.", "timestamp": "2025-11-04T04:20:11.346381Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:24:39.648120Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:24:39.648120Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:24:39.648120Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:24:39.648120Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:24:39.658771Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112439_e0c30e42", "temp_dir": "data\\session_20251104_112439_e0c30e42", "faiss_dir": "faiss_index\\session_20251104_112439_e0c30e42", "sessionized": true, "timestamp": "2025-11-04T04:24:39.659855Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112439_e0c30e42\\66712dde.txt", "timestamp": "2025-11-04T04:24:39.661165Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:24:39.674051Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:24:39.675051Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:24:39.676315Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112439_e0c30e42", "timestamp": "2025-11-04T04:24:41.541084Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:24:41.541084Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:24:41.544942Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:24:41.544942Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:24:41.546288Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:24:41.546288Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:24:41.549360Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:24:41.549360Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112439_e0c30e42", "timestamp": "2025-11-04T04:24:41.551367Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112439_e0c30e42", "timestamp": "2025-11-04T04:24:41.551367Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:24:41.553720Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:24:41.555079Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:24:41.555079Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:24:41.555079Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:24:41.558331Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:24:41.559351Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112439_e0c30e42", "timestamp": "2025-11-04T04:24:41.577712Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112439_e0c30e42", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112439_e0c30e42", "timestamp": "2025-11-04T04:24:41.577712Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_112439_e0c30e42", "user_input": "How Agentic AI is transforming AI engineering practices?", "answer_preview": "Agentic AI is transforming software engineering through systems that can understand requirements, generate code, test implementations, debug errors, a", "timestamp": "2025-11-04T04:24:48.491494Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:24:59.282756Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:24:59.283770Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:24:59.284767Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:24:59.285782Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:24:59.288160Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112459_4ef1fac1", "temp_dir": "data\\session_20251104_112459_4ef1fac1", "faiss_dir": "faiss_index\\session_20251104_112459_4ef1fac1", "sessionized": true, "timestamp": "2025-11-04T04:24:59.289686Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112459_4ef1fac1\\f5c64c40.txt", "timestamp": "2025-11-04T04:24:59.290891Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:24:59.300452Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:24:59.303533Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:24:59.305651Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112459_4ef1fac1", "timestamp": "2025-11-04T04:25:00.606852Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:25:00.607850Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:25:00.610587Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:25:00.610587Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:25:00.611727Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:25:00.611727Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:25:00.613747Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:25:00.614747Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112459_4ef1fac1", "timestamp": "2025-11-04T04:25:00.614747Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112459_4ef1fac1", "timestamp": "2025-11-04T04:25:00.614747Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:25:00.618678Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:25:00.619687Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:25:00.619687Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:25:00.620689Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:25:00.623189Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:25:00.624466Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112459_4ef1fac1", "timestamp": "2025-11-04T04:25:00.644555Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112459_4ef1fac1", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112459_4ef1fac1", "timestamp": "2025-11-04T04:25:00.646397Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_112459_4ef1fac1", "user_input": "What are the key characteristics that distinguish agentic AI from traditional AI systems?", "answer_preview": "Agentic AI systems can set goals, make decisions, take actions, and adapt their behavior based on environmental feedback, unlike traditional AI that r", "timestamp": "2025-11-04T04:25:03.128190Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:25:03.130230Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:25:03.130230Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:25:03.130230Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:25:03.131739Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:25:03.133744Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112503_b2f05776", "temp_dir": "data\\session_20251104_112503_b2f05776", "faiss_dir": "faiss_index\\session_20251104_112503_b2f05776", "sessionized": true, "timestamp": "2025-11-04T04:25:03.135918Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112503_b2f05776\\f991ba20.txt", "timestamp": "2025-11-04T04:25:03.135918Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:25:03.148073Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:25:03.148615Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:25:03.149727Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112503_b2f05776", "timestamp": "2025-11-04T04:25:04.341420Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:25:04.344853Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:25:04.346861Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:25:04.346861Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:25:04.347865Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:25:04.347865Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:25:04.350443Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:25:04.351441Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112503_b2f05776", "timestamp": "2025-11-04T04:25:04.353789Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112503_b2f05776", "timestamp": "2025-11-04T04:25:04.354807Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:25:04.355810Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:25:04.356807Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:25:04.357612Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:25:04.357927Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:25:04.359985Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:25:04.361491Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112503_b2f05776", "timestamp": "2025-11-04T04:25:04.388717Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112503_b2f05776", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112503_b2f05776", "timestamp": "2025-11-04T04:25:04.389177Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details..
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4.0 seconds as it raised ResourceExhausted: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details..
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8.0 seconds as it raised ResourceExhausted: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details..
+{"session_id": "session_20251104_112503_b2f05776", "user_input": "What are the main architectural patterns used for building agentic AI systems?", "answer_preview": "The architectural patterns that have emerged for building agentic AI systems are ReAct (Reasoning and Acting) and Plan-and-Execute. The ReAct framewor", "timestamp": "2025-11-04T04:25:22.934843Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:25:22.935909Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:25:22.935909Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:25:22.935909Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:25:22.935909Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:25:22.935909Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112522_2900b345", "temp_dir": "data\\session_20251104_112522_2900b345", "faiss_dir": "faiss_index\\session_20251104_112522_2900b345", "sessionized": true, "timestamp": "2025-11-04T04:25:22.942000Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112522_2900b345\\8d6d1d43.txt", "timestamp": "2025-11-04T04:25:22.943132Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:25:22.951506Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:25:22.955432Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:25:22.956260Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112522_2900b345", "timestamp": "2025-11-04T04:25:24.205651Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:25:24.205651Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:25:24.207670Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:25:24.207670Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:25:24.207670Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:25:24.210179Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:25:24.212433Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:25:24.212433Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112522_2900b345", "timestamp": "2025-11-04T04:25:24.212433Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112522_2900b345", "timestamp": "2025-11-04T04:25:24.212433Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:25:24.212433Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:25:24.212433Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:25:24.212433Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:25:24.212433Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:25:24.220212Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:25:24.221717Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112522_2900b345", "timestamp": "2025-11-04T04:25:24.242017Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112522_2900b345", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112522_2900b345", "timestamp": "2025-11-04T04:25:24.242835Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_112522_2900b345", "user_input": "What ethical concerns arise from deploying autonomous AI agents?", "answer_preview": "As agents become more autonomous, questions arise about appropriate levels of human oversight, especially for high-stakes decisions. Understanding why", "timestamp": "2025-11-04T04:25:26.887381Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:26:30.449000Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:26:30.450059Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:26:30.450059Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:26:30.450059Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:26:30.453572Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112630_880e1dde", "temp_dir": "data\\session_20251104_112630_880e1dde", "faiss_dir": "faiss_index\\session_20251104_112630_880e1dde", "sessionized": true, "timestamp": "2025-11-04T04:26:30.455988Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112630_880e1dde\\739aea5b.txt", "timestamp": "2025-11-04T04:26:30.457136Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:26:30.469163Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:26:30.470165Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:26:30.471970Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112630_880e1dde", "timestamp": "2025-11-04T04:26:31.866777Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:26:31.867902Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:26:31.868943Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:26:31.869941Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:26:31.869941Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:26:31.869941Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:26:31.873450Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:26:31.873936Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112630_880e1dde", "timestamp": "2025-11-04T04:26:31.876439Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112630_880e1dde", "timestamp": "2025-11-04T04:26:31.877437Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:26:31.878437Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:26:31.878437Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:26:31.879437Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:26:31.880440Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:26:31.881947Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:26:31.883081Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112630_880e1dde", "timestamp": "2025-11-04T04:26:31.903082Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112630_880e1dde", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112630_880e1dde", "timestamp": "2025-11-04T04:26:31.904150Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_112630_880e1dde", "user_input": "What ethical concerns arise from deploying autonomous AI agents?", "answer_preview": "As agents become more autonomous, questions arise about appropriate levels of human oversight, especially for high-stakes decisions. Understanding why", "timestamp": "2025-11-04T04:26:34.653330Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:26:34.660388Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:26:34.663005Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:26:34.663477Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:26:34.663477Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:26:34.663477Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112634_222a0906", "temp_dir": "data\\session_20251104_112634_222a0906", "faiss_dir": "faiss_index\\session_20251104_112634_222a0906", "sessionized": true, "timestamp": "2025-11-04T04:26:34.663477Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112634_222a0906\\650c34f4.txt", "timestamp": "2025-11-04T04:26:34.663477Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:26:34.683904Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:26:34.684921Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:26:34.686486Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112634_222a0906", "timestamp": "2025-11-04T04:26:35.953794Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:26:35.953794Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:26:35.956035Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:26:35.956402Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:26:35.956402Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:26:35.957836Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:26:35.958872Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:26:35.958872Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112634_222a0906", "timestamp": "2025-11-04T04:26:35.958872Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112634_222a0906", "timestamp": "2025-11-04T04:26:35.962973Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:26:35.964087Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:26:35.965073Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:26:35.965073Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:26:35.966073Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:26:35.968680Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:26:35.968680Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112634_222a0906", "timestamp": "2025-11-04T04:26:35.985630Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112634_222a0906", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112634_222a0906", "timestamp": "2025-11-04T04:26:35.985630Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details..
+{"session_id": "session_20251104_112634_222a0906", "user_input": "What are the main architectural patterns used for building agentic AI systems?", "answer_preview": "The architectural patterns that have emerged for building agentic AI systems are ReAct (Reasoning and Acting) and Plan-and-Execute. The ReAct framewor", "timestamp": "2025-11-04T04:26:50.489975Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:26:50.496949Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:26:50.496949Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:26:50.496949Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:26:50.496949Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:26:50.496949Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112650_b5f99721", "temp_dir": "data\\session_20251104_112650_b5f99721", "faiss_dir": "faiss_index\\session_20251104_112650_b5f99721", "sessionized": true, "timestamp": "2025-11-04T04:26:50.503784Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112650_b5f99721\\0e6c39c8.txt", "timestamp": "2025-11-04T04:26:50.504576Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:26:50.514355Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:26:50.514355Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:26:50.514355Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112650_b5f99721", "timestamp": "2025-11-04T04:26:52.448382Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:26:52.448382Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:26:52.448382Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:26:52.448382Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:26:52.448382Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:26:52.448382Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:26:52.453308Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:26:52.453308Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112650_b5f99721", "timestamp": "2025-11-04T04:26:52.455902Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112650_b5f99721", "timestamp": "2025-11-04T04:26:52.457401Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:26:52.457401Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:26:52.457401Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:26:52.457401Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:26:52.460629Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:26:52.463105Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:26:52.464252Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112650_b5f99721", "timestamp": "2025-11-04T04:26:52.481388Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112650_b5f99721", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112650_b5f99721", "timestamp": "2025-11-04T04:26:52.481388Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_112650_b5f99721", "user_input": "What are the key characteristics that distinguish agentic AI from traditional AI systems?", "answer_preview": "Agentic AI systems can set goals, make decisions, take actions, and adapt their behavior based on environmental feedback, unlike traditional AI that r", "timestamp": "2025-11-04T04:26:55.508107Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:29:13.015521Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:29:13.015521Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:29:13.015521Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:29:13.015521Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:29:13.020844Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112913_3ae10390", "temp_dir": "data\\session_20251104_112913_3ae10390", "faiss_dir": "faiss_index\\session_20251104_112913_3ae10390", "sessionized": true, "timestamp": "2025-11-04T04:29:13.021862Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112913_3ae10390\\ee7174b6.txt", "timestamp": "2025-11-04T04:29:13.023880Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:29:13.035427Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:29:13.036719Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:29:13.037716Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112913_3ae10390", "timestamp": "2025-11-04T04:29:14.361759Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:29:14.365165Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:29:14.365165Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:29:14.365165Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:29:14.365165Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:29:14.365165Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:29:14.365165Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:29:14.370699Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112913_3ae10390", "timestamp": "2025-11-04T04:29:14.373640Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112913_3ae10390", "timestamp": "2025-11-04T04:29:14.373640Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:29:14.373640Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:29:14.373640Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:29:14.373640Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:29:14.373640Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:29:14.379803Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:29:14.380506Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112913_3ae10390", "timestamp": "2025-11-04T04:29:14.402535Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112913_3ae10390", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112913_3ae10390", "timestamp": "2025-11-04T04:29:14.402535Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_112913_3ae10390", "user_input": "What ethical concerns arise from deploying autonomous AI agents?", "answer_preview": "As agents become more autonomous, questions arise about appropriate levels of human oversight, especially for high-stakes decisions. Understanding why", "timestamp": "2025-11-04T04:29:17.329932Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:29:25.424546Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:29:25.425546Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:29:25.425546Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:29:25.425546Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:29:25.427891Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112925_c89725b7", "temp_dir": "data\\session_20251104_112925_c89725b7", "faiss_dir": "faiss_index\\session_20251104_112925_c89725b7", "sessionized": true, "timestamp": "2025-11-04T04:29:25.428900Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112925_c89725b7\\72eecb49.txt", "timestamp": "2025-11-04T04:29:25.430458Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:29:25.442068Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:29:25.442870Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:29:25.443702Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112925_c89725b7", "timestamp": "2025-11-04T04:29:26.754637Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:29:26.754637Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:29:26.754637Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:29:26.763872Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:29:26.764308Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:29:26.764308Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:29:26.764308Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:29:26.764308Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112925_c89725b7", "timestamp": "2025-11-04T04:29:26.764308Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112925_c89725b7", "timestamp": "2025-11-04T04:29:26.764308Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:29:26.764308Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:29:26.764308Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:29:26.771970Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:29:26.771970Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:29:26.775240Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:29:26.776281Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112925_c89725b7", "timestamp": "2025-11-04T04:29:26.794311Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112925_c89725b7", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112925_c89725b7", "timestamp": "2025-11-04T04:29:26.794311Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_112925_c89725b7", "user_input": "What are the main architectural patterns used for building agentic AI systems?", "answer_preview": "The architectural patterns that have emerged for building agentic AI systems are ReAct (Reasoning and Acting) and Plan-and-Execute. The ReAct framewor", "timestamp": "2025-11-04T04:29:30.801716Z", "level": "info", "event": "Chain invoked successfully"}
+{"timestamp": "2025-11-04T04:29:36.680302Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:29:36.680302Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:29:36.680302Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:29:36.680302Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:29:36.681835Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_112936_10ba5f14", "temp_dir": "data\\session_20251104_112936_10ba5f14", "faiss_dir": "faiss_index\\session_20251104_112936_10ba5f14", "sessionized": true, "timestamp": "2025-11-04T04:29:36.681835Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "agentic_ai_overview.txt", "saved_as": "data\\session_20251104_112936_10ba5f14\\cfa5e938.txt", "timestamp": "2025-11-04T04:29:36.681835Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T04:29:36.698581Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 17, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-11-04T04:29:36.698581Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:29:36.701589Z", "level": "info", "event": "Loading embedding model"}
+{"added": 1, "index": "faiss_index\\session_20251104_112936_10ba5f14", "timestamp": "2025-11-04T04:29:37.887369Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T04:29:37.887369Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T04:29:37.887369Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:29:37.887369Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:29:37.887369Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:29:37.887369Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:29:37.893502Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T04:29:37.893502Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_112936_10ba5f14", "timestamp": "2025-11-04T04:29:37.896514Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_112936_10ba5f14", "timestamp": "2025-11-04T04:29:37.896514Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T04:29:37.897514Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T04:29:37.898510Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T04:29:37.898510Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T04:29:37.899512Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T04:29:37.899512Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T04:29:37.901988Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_112936_10ba5f14", "timestamp": "2025-11-04T04:29:37.921408Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251104_112936_10ba5f14", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_112936_10ba5f14", "timestamp": "2025-11-04T04:29:37.921408Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_112936_10ba5f14", "user_input": "What are the key characteristics that distinguish agentic AI from traditional AI systems?", "answer_preview": "Agentic AI systems can set goals, make decisions, take actions, and adapt their behavior based on environmental feedback, unlike traditional AI that r", "timestamp": "2025-11-04T04:29:40.814844Z", "level": "info", "event": "Chain invoked successfully"}

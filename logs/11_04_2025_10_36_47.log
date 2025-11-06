@@ -1,0 +1,31 @@
+{"timestamp": "2025-11-04T03:36:47.392627Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T03:36:47.392627Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T03:36:47.392627Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T03:36:47.392627Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T03:36:47.394302Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251104_103647_647c1b5c", "temp_dir": "data\\session_20251104_103647_647c1b5c", "faiss_dir": "faiss_index\\session_20251104_103647_647c1b5c", "sessionized": true, "timestamp": "2025-11-04T03:36:47.394302Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "E:/MinhHoang/LLMOps/data/agentic_ai_overview.txt", "saved_as": "data\\session_20251104_103647_647c1b5c\\4c75e44b.txt", "timestamp": "2025-11-04T03:36:47.394302Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-11-04T03:36:47.408792Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 37, "chunk_size": 500, "overlap": 100, "timestamp": "2025-11-04T03:36:47.408792Z", "level": "info", "event": "Documents split"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T03:36:47.408792Z", "level": "info", "event": "Loading embedding model"}
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+{"added": 1, "index": "faiss_index\\session_20251104_103647_647c1b5c", "timestamp": "2025-11-04T03:36:49.447359Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-11-04T03:36:49.447359Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-11-04T03:36:49.448595Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T03:36:49.448595Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T03:36:49.448595Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T03:36:49.448595Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T03:36:49.451108Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-11-04T03:36:49.451108Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251104_103647_647c1b5c", "timestamp": "2025-11-04T03:36:49.453118Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251104_103647_647c1b5c", "timestamp": "2025-11-04T03:36:49.453118Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-11-04T03:36:49.454807Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-11-04T03:36:49.454807Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-11-04T03:36:49.454807Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vH...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-11-04T03:36:49.454807Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-11-04T03:36:49.456827Z", "level": "info", "event": "YAML config loaded"}
+{"model": "models/text-embedding-004", "timestamp": "2025-11-04T03:36:49.456827Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251104_103647_647c1b5c", "timestamp": "2025-11-04T03:36:49.479762Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index\\session_20251104_103647_647c1b5c", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251104_103647_647c1b5c", "timestamp": "2025-11-04T03:36:49.479762Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251104_103647_647c1b5c", "user_input": "hello", "answer_preview": "Hello! How can I help you?", "timestamp": "2025-11-04T03:36:59.896079Z", "level": "info", "event": "Chain invoked successfully"}
